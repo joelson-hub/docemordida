@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Mordida - Cardápio de Natal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="snow-container"></div>
+
+    <header>
+        <img src="https://i.ibb.co/qMmS0gsv/LOGO.jpg" alt="Logo Doce Mordida" class="logo-img">
+        <h1>Doce Mordida</h1>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Doce Natal</h2>
+            <p>Confeitaria Artesanal e Afetiva</p>
+            <a href="#cardapio" class="btn-cta">Ver Delícias</a>
+        </div>
+    </section>
+
+    <section id="cardapio" class="menu-section">
+        <h2 class="section-title">Menu Especial</h2>
+
+        <h3 class="category-title"><i class="fas fa-cookie-bite"></i> Cookietones (Aprox. 215g)</h3>
+        <div class="products-grid">
+            
+            <div class="card">
+                <img src="https://i.ibb.co/jkqJcSq9/Cookietone-de-Ninho-com-Nutella-2.jpg" alt="Cookietone Ninho" class="card-img">
+                <div class="card-body">
+                    <h3>Cookietone de Ninho com Nutella</h3>
+                    <p>Massa de baunilha, gotas de chocolate meio amargo e um mega recheio de brigadeiro de Ninho e muita Nutella.</p>
+                    <span class="price-tag">R$ 35,00</span>
+                    <button onclick="encomendar('Cookietone Ninho c/ Nutella', '35,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/60S02Q4S/Cookietone-Red-ninho-1.jpg" alt="Cookietone Red" class="card-img">
+                <div class="card-body">
+                    <h3>Cookietone Red Ninho</h3>
+                    <p>Massa Red Velvet com cacau 100%, gotas brancas, recheio de creme de Ninho e geleia artesanal de morango.</p>
+                    <span class="price-tag">R$ 30,00</span>
+                    <button onclick="encomendar('Cookietone Red Ninho', '30,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/Nd3nL902/Cookietone-Kinder-Bueno-1.jpg" alt="Cookietone Kinder" class="card-img">
+                <div class="card-body">
+                    <h3>Cookietone Kinder Bueno</h3>
+                    <p>Massa Choco Chips com gotas brancas e meio amargas, com um delicioso recheio de Kinder Bueno.</p>
+                    <span class="price-tag">R$ 38,00</span>
+                    <button onclick="encomendar('Cookietone Kinder Bueno', '38,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 class="category-title"><i class="fas fa-glass-martini-alt"></i> Sobremesas na Taça (Aprox. 1,3kg)</h3>
+        <div class="products-grid">
+            
+            <div class="card">
+                <img src="https://i.ibb.co/nq5nQ4Dk/Ta-a-Ninho-com-Morango.jpg" alt="Taça Ninho" class="card-img">
+                <div class="card-body">
+                    <h3>Taça Ninho com Morango</h3>
+                    <p>Mousse de ninho intercalado com geleia artesanal de morango e camadas de bolo. Decorado com Chantilly e morangos.</p>
+                    <span class="price-tag">R$ 85,00</span>
+                    <button onclick="encomendar('Taça Ninho com Morango', '85,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/DgM3yRDj/Ta-a-Bombom-de-uva.jpg" alt="Taça Uva" class="card-img">
+                <div class="card-body">
+                    <h3>Taça Bombom de Uva</h3>
+                    <p>Camadas de Brigadeiro Cremoso de Ninho, uvas frescas e, por cima, ganache de Chocolate meio amargo.</p>
+                    <span class="price-tag">R$ 75,00</span>
+                    <button onclick="encomendar('Taça Bombom de Uva', '75,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/3YGcxRPC/Ta-a-Brownie-com-Morango.jpg" alt="Taça Brownie" class="card-img">
+                <div class="card-body">
+                    <h3>Taça Brownie com Morango</h3>
+                    <p>Pedaços generosos de brownie macio e morangos intercalados com camadas de mousse de Ninho e Chocolate 50% cacau.</p>
+                    <span class="price-tag">R$ 85,00</span>
+                    <button onclick="encomendar('Taça Brownie com Morango', '85,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+             <div class="card">
+                <img src="https://i.ibb.co/rRHpg2sd/Ta-a-da-Felicidade.jpg" alt="Taça Felicidade" class="card-img">
+                <div class="card-body">
+                    <h3>Taça da Felicidade</h3>
+                    <p>Mousse de Cupuaçu, intercalado com frutas e camadas de bolo. Decorado com Pudim e frutas.</p>
+                    <span class="price-tag">R$ 85,00</span>
+                    <button onclick="encomendar('Taça da Felicidade', '85,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 class="category-title"><i class="fas fa-birthday-cake"></i> Bolos Natalinos (15cm - 1,5kg)</h3>
+        <div class="products-grid">
+            <div class="card">
+                <img src="https://i.ibb.co/S4V16vtD/Bolo-Natalino.jpg" alt="Bolo Natalino" class="card-img" style="height: auto; width: 100%; object-fit: contain;">
+                <div class="card-body">
+                    <h3>Bolo Natalino Especial</h3>
+                    <p>Massa branca ou chocolate. Recheios: Ninho Trufado, Belga, Mousse de Chocolate ou Brigadeiro. Serve 10 a 15 pessoas.</p>
+                    <span class="price-tag">R$ 135,00</span>
+                    <button onclick="encomendar('Bolo Natalino', '135,00')" class="btn-order"><i class="fab fa-whatsapp"></i> Encomendar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3><i class="fas fa-sleigh"></i> Como Pedir</h3>
+            <ul>
+                <li><i class="fas fa-calendar-alt"></i> Encomendas até dia <strong>22/12</strong></li>
+                <li><i class="fas fa-exclamation-circle"></i> Vagas Limitadas! Não deixe para a última hora.</li>
+                <li><i class="fas fa-money-bill-wave"></i> Sinal de 50% para confirmação.</li>
+                <li><i class="fas fa-credit-card"></i> Aceitamos Pix, Dinheiro e Cartão.</li>
+                <li><i class="fas fa-car"></i> Opção de Retirada ou Entrega.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 Doce Mordida - Confeitaria Afetiva</p>
+        <p>Telefone: (96) 98418-9056</p>
+    </footer>
+
+    <a href="https://wa.me/5596984189056" class="fab-whatsapp" target="_blank" title="Fale com a gente">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
